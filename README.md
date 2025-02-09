@@ -18,7 +18,7 @@ You may use the following technologies:
 ---
 
 ## 📌 Tasks
-### 🔹 Version 1: `ttt1.html`
+### 🔹 Version 1: `ttt1.html` [ttt1.html](https://bizzyk.github.io/DGMD-E-28-assignment-2/ttt1.html)
 - Create a **3×3 Tic Tac Toe board** using **HTML and CSS**.
 - Each square should be a `<div>` element.
 - **Hardcode** two `X` and one `O` in different squares to test positioning.
@@ -26,7 +26,7 @@ You may use the following technologies:
 - Use an **internal CSS style sheet**.
 - **Save the file as** `ttt1.html`.
 
-### 🔹 Version 2: `ttt2.html`
+### 🔹 Version 2: `ttt2.html` [ttt2.html](https://bizzyk.github.io/DGMD-E-28-assignment-2/ttt2.html)
 - Recreate the board using **JavaScript** instead of static HTML.
 - Use the following JavaScript code (cannot be modified) to generate the squares:
 
