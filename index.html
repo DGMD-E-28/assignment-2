@@ -3,22 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe - Part 1</title>
+    <link rel="icon" href="assets/favicon/okf.ico" type="image/x-icon">
+    <title>Tic Tac Toe - Part 1 - Elizabeth Koch - DGMD E-28 Assignment 2</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; padding: 20px; }
-        h1, h2, h3 { color: #333; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        table, th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background: #f8f8f8; }
-        a { color: #007BFF; text-decoration: none; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #f8f8f8;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
 <h1>Tic Tac Toe - Part 1</h1>
 
 <h2>Assignment Overview</h2>
-<p>This project is the first part of building a <strong>Tic Tac Toe</strong> game as a web application using <strong>HTML, CSS, and JavaScript</strong>. The assignment focuses on creating the visual structure of the board and preparing it for interactive functionality in the next phase.</p>
+<p>This project is the first part of building a <strong>Tic Tac Toe</strong> game as a web application using <strong>HTML,
+    CSS, and JavaScript</strong>. The assignment focuses on creating the visual structure of the board and preparing it
+    for interactive functionality in the next phase.</p>
 
 <h2>Requirements</h2>
 <ul>
@@ -41,7 +74,8 @@
 <ul>
     <li>Create a <strong>3×3 Tic Tac Toe board</strong> using <strong>HTML and CSS</strong>.</li>
     <li>Each square should be a <code>&lt;div&gt;</code> element.</li>
-    <li><strong>Hardcode</strong> two <code>X</code> and one <code>O</code> in different squares to test positioning.</li>
+    <li><strong>Hardcode</strong> two <code>X</code> and one <code>O</code> in different squares to test positioning.
+    </li>
     <li>Add a <strong>hover effect</strong> to highlight squares when the mouse is over them.</li>
     <li>Use an <strong>internal CSS style sheet</strong>.</li>
 </ul>
@@ -51,18 +85,21 @@
     <li>Recreate the board using <strong>JavaScript</strong> instead of static HTML.</li>
     <li>Use the following JavaScript code (cannot be modified) to generate the squares:</li>
 </ul>
-<pre>
-const NUM_SQUARES = 9;
-for (let i = 0; i < NUM_SQUARES; i++) {
-    let id = "sq" + i;
-    document.write("<div class='square' id='" + id + "'></div>");
-}
+    <pre>
+    const NUM_SQUARES = 9;
+    for (let i = 0; i < NUM_SQUARES; i++) {
+        let id = "sq" + i;
+        document.write("<div class='square' id='" + id + "'></div>");
+    }
     </pre>
 <ul>
     <li>Add a <strong>title</strong> above the board.</li>
     <li>Add a <code>&lt;div&gt;</code> to indicate whose turn it is (X or O) with a visible border.</li>
-    <li>Add another <code>&lt;div&gt;</code> section to <strong>display a win condition</strong> (to be used in the next phase).</li>
-    <li>Use <strong>JavaScript to place two X's and one O</strong> in the same positions as in <code>ttt1.html</code>.</li>
+    <li>Add another <code>&lt;div&gt;</code> section to <strong>display a win condition</strong> (to be used in the next
+        phase).
+    </li>
+    <li>Use <strong>JavaScript to place two X's and one O</strong> in the same positions as in <code>ttt1.html</code>.
+    </li>
 </ul>
 
 <h2>🚀 Deliverables</h2>
