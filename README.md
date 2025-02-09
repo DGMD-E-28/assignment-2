@@ -63,8 +63,8 @@ You may use the following technologies:
 ---
 
 ## 🔗 Useful Resources
-- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [HTML & CSS Tutorial](https://www.w3schools.com/)
+- [How JavaScript works](https://computer.howstuffworks.com/javascript.htm)
+- [JavaScript beginner tutorial](https://htmldog.com/guides/javascript/beginner/)
+- [Javascript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 Happy Coding! 🎉
